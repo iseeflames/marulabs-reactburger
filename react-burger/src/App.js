@@ -6,16 +6,22 @@ import Meat from "./components/Meat/Meat";
 import TopBread from "./components/TopBread/TopBread";
 import Tomato from "./components/Tomato/Tomato";
 
+const toggle = () => {
+  console.log("Component clicked.");
+};
+
 function App() {
   return (
     <div className="App">
-      <TopBread />
-      <Meat name="Beef" />
-      <Tomato name="Tomato" />
-      <Cheese />
-      <Meat name="Beef" />
-      <Lettuce />
-      <BottomBread />
+      <div className="components-wrapper">
+        <TopBread />
+        <Meat name="Beef" />
+        <Tomato name="Tomato" />
+        <Cheese />
+        <Meat name="Beef" />
+        <Lettuce />
+        <BottomBread />
+      </div>
     </div>
   );
 }
