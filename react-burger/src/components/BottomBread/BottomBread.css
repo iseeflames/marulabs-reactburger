@@ -1,4 +1,6 @@
 .bottomBread{
     width: 200px;
+    height: 20px;
     background-color: #BF8B67;
+    border-radius: 0 0 15px 15px;
 }
