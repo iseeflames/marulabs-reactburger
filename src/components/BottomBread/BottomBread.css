@@ -5,3 +5,7 @@
     border-radius: 0 0 15px 15px;
     margin: 20px;
 }
+
+.hiddenBottomBread{
+    display: none;
+}
