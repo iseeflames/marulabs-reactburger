@@ -15,11 +15,11 @@ function App() {
     <div className="App">
       <div className="components-wrapper">
         <TopBread />
-        <Meat name="Beef" />
         <Tomato name="Tomato" />
-        <Cheese />
         <Meat name="Beef" />
+        <Cheese />
         <Lettuce />
+        <Meat name="Beef" />
         <BottomBread />
       </div>
     </div>
