@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import "./Lettuce.css"
-
+import "../Components.css"
 
 export default function Lettuce() {
   const [isVisible, setIsVisble] = useState(true);
@@ -15,7 +15,7 @@ export default function Lettuce() {
 
     }
 
-  return (<div onClick={removeComponent} className="lettuce-container">
+  return (<div onClick={removeComponent} className="lettuce-container filling">
     <p className="">Lettuce</p>
   </div>);
 }

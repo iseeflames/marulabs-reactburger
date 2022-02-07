@@ -16,7 +16,7 @@ export default function TopBread() {
 
   return (
     <div onClick={removeComponent} className="topbread-container">
-      
+
     </div>
   );
 }

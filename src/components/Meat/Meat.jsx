@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import "./Meat.css"
+import "../Components.css"
 
 export default function Meat(props) {
   const [isVisible, setIsVisble] = useState(true);
@@ -14,7 +15,7 @@ export default function Meat(props) {
 
     }
   return (
-    <div onClick={removeComponent} className="meat-container">
+    <div onClick={removeComponent} className="meat-container filling">
       <p className="meat-name">{props.name}</p>
     </div>
   );
