@@ -2,10 +2,8 @@
   box-sizing: border-box;
 }
 .App {
+  
   text-align: center;
-}
-
-.components-wrapper {
-  display: flex;
-  flex-direction: column;
+  padding: 10% 0;
+  height: 100vh;
 }
